@@ -6,18 +6,46 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
+    <style>
+        html{
+            font-size: 40px;
+        }
+
+        .em2 {
+            font-size: 2em;
+        }
+
+        .rem2 {
+            font-size: 2rem;
+        }
+    </style>
 </head>
 <body>
 <button class="btn btn-info">Info</button>
 <!--練習BS 文字的使用-->
+<p class="">我甚麼都沒有</p>
+
+<div class="em2">
+    我是EM2
+    <div class="em2">第2層EM2</div>
+</div>
+
+<div class="rem2">
+    我是REM2
+    <div class="rem2">第2層REM2</div>
+</div>
+
+
 
 <div class="demo">
-    <h1 class="練習">Display 1</h1>
-    <h1 class="練習">Display 2</h1>
-    <h1 class="練習">Display 3</h1>
-    <h1 class="練習">Display 4</h1>
-    <h1 class="練習">Display 5</h1>
-    <h1 class="練習">Display 6</h1>
+    <!--下面的display-1 其實是 5rem 的意思-->
+    <h1 class="display-1">Display 1</h1>
+    <h1 class="">(H1)Display 1</h1>
+    <h1 class="display-2">Display 2</h1>
+    <h1 class="display-3">Display 3</h1>
+    <h1 class="display-4">Display 4</h1>
+    <h1 class="display-5">Display 5</h1>
+    <h1 class="display-6">Display 6</h1>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
